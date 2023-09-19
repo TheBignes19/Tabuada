@@ -65,3 +65,15 @@ button {
 
     padding: 8px;
 }
+
+@media (max-width:600px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .num{
+        width: 15rem;
+    }
+
+}
