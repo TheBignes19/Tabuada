@@ -2,6 +2,9 @@
 
 function tabuada(){
     let num = parseInt(document.querySelector(".num").value);
+    if(isNaN(num)){
+      return
+    }
     let result = document.querySelector('.result');
     let tabuada='';
   

@@ -42,16 +42,18 @@ button {
     background: #D6B7A2;
 }
 
-.enzo {
+.result_conteiner {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
+
+    padding: 8px;
 }
 
 .result {
-    width: 18rem;
-    height: 35rem;
+    min-width: 18rem; 
+    min-height: 35rem;
     margin-top: 3rem;
 
     color: #FFF;
@@ -60,4 +62,6 @@ button {
     font-weight: 400;
     
     border: 1px solid #D6B7A2 ;
+
+    padding: 8px;
 }
